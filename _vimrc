@@ -60,11 +60,11 @@ let Tlist_Show_One_File=1
 let Tlist_Exit_OnlyWindow=1
 
 
-let g:miniBufExplMapWindowNavVim = 1   
-let g:miniBufExplMapWindowNavArrows = 1   
-let g:miniBufExplMapCTabSwitchBufs = 1   
-let g:miniBufExplModSelTarget = 1  
-let g:miniBufExplMoreThanOne=0
+let g:miniBufExplMapWindowNavVim = 1
+let g:miniBufExplMapWindowNavArrows = 1
+let g:miniBufExplMapCTabSwitchBufs = 1
+let g:miniBufExplModSelTarget = 1
+let g:miniBufExplMoreThanOne = 0
 
 let g:winManagerWindowLayout = "FileExplorer|TagList"
 let g:winManagerWidth = 30
@@ -76,4 +76,4 @@ set guifont=Consolas:h12
 filetype plugin indent on
 
 nmap <C-F6> :!php %<CR>
-nmap <C-w> :q<CR>
+"nmap <C-w> :q<CR>
